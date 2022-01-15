@@ -1,0 +1,22 @@
+  /* Media rules */
+  @media only screen and (max-width: 600px) {
+    .header__content {
+      background-size: 600px auto;
+    }
+    .main__content {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .main__content__image {
+      height: 300px;
+    }
+    .main__content__image img {
+      height: 300px;
+    }
+    .footer__container {
+      margin-top: 0;
+    }
+    .nav__container {
+      margin-top: 0;
+    }
+  }

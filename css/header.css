@@ -1,0 +1,21 @@
+  /* Header */
+  .header__container {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 0;
+  }
+
+  .header__content {
+      background-image: url("../images/__header.jpg");
+      background-position: 0 80%;
+      background-size: 995px auto;
+      border-radius: 5px;
+      border-color: #9DAB86;
+      border-width: 2.5px;
+      border-style: solid;
+      max-width: 995px;
+      height: 400px;
+      margin: auto;
+  }

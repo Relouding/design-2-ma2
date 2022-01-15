@@ -1,0 +1,20 @@
+  /* Footer */
+  .footer__container {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .footer__content {
+    background-color: #9DAB86;
+    border-radius: 5px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .footer__content p {
+    text-align: center;
+    font-family: helvetica;
+    font-size: .7em;
+    padding: 10px;
+    margin: auto;
+  }

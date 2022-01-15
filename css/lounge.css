@@ -1,0 +1,80 @@
+  body {
+    margin: 0;
+    background-image: url("../images/__texture.png");
+    background-color: #fcf2f2;
+  }
+
+  /* Main */
+  .main__container {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    position: relative;
+  }
+
+  .main__content {
+    border-radius: 5px;
+    border-width: 2.5px;
+    border-style: solid;
+    width: 325.68px;
+    height: auto;
+    margin: auto;
+    display: inline-block;
+  }
+
+  .main__content p {
+    color: #F3F3F3;
+    font-family: helvetica;
+    font-size: 0.9em;
+    margin: 10px;
+    float: right;
+  }
+
+  .main__content__image {
+    overflow: hidden;
+    height: 300px;
+  }
+
+  .main__content__image img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    filter: brightness(1.2) contrast(1.2);
+    border-radius: 3px 3px 0 0;
+  }
+
+  .main__content img:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+  }
+
+  .__image__1 img {
+    object-fit: cover;
+    object-position: 0 70%;
+  }
+
+  .__image__2 img {
+    object-fit: cover;
+    object-position: 0 80%;
+  }
+
+  .__image__3 img {
+    object-fit: cover;
+    object-position: 0 70%;
+  }
+
+  .__orange {
+    border-color: #EB8242;
+    background-color: #C9753D;
+  }
+
+  .__lightorange {
+    border-color: #E6A157;
+    background-color: #EB8242;
+  }
+
+  .__darkorange {
+    border-color: #C9753D;
+    background-color: #E6A157;
+  }
